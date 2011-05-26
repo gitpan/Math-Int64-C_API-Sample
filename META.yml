@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Math-Int64-C_API-Sample
-version:            0.01
+version:            0.02
 abstract:           ~
 author:
     - Eto Demerzel <eto.demerzel@usrobots.com>
@@ -11,7 +11,7 @@ configure_requires:
 build_requires:
     ExtUtils::MakeMaker:  0
 requires:
-    Math::Int64:  0.11
+    Math::Int64:  0.13
 no_index:
     directory:
         - t
