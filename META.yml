@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Math-Int64-C_API-Sample
-version:            0.03
+version:            0.04
 abstract:           ~
 author:
     - Eto Demerzel <eto.demerzel@usrobots.com>
@@ -11,12 +11,12 @@ configure_requires:
 build_requires:
     ExtUtils::MakeMaker:  0
 requires:
-    Math::Int64:  0.16
+    Math::Int64:  0.17
 no_index:
     directory:
         - t
         - inc
-generated_by:       ExtUtils::MakeMaker version 6.55_02
+generated_by:       ExtUtils::MakeMaker version 6.56
 meta-spec:
     url:      http://module-build.sourceforge.net/META-spec-v1.4.html
     version:  1.4
