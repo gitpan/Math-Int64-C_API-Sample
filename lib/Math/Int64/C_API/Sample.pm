@@ -1,12 +1,12 @@
 package Math::Int64::C_API::Sample;
 
-our $VERSION = '0.04';
+our $VERSION = '0.05';
 
 use strict;
 use warnings;
 
 use Exporter qw(import);
-our @EXPORT = qw(some_int64 uint64_sqr int64_addmul);
+our @EXPORT = qw(some_int64 uint64_sqr int64_addmul uint64_rand);
 
 
 require XSLoader;

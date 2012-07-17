@@ -1,3 +1,6 @@
+
+/* #define PERL_NO_GET_CONTEXT 1 */
+
 #include "EXTERN.h"
 #include "perl.h"
 #include "XSUB.h"
@@ -26,7 +29,7 @@ MODULE = Math::Int64::C_API::Sample		PACKAGE = Math::Int64::C_API::Sample
 PROTOTYPES: DISABLE
 
 BOOT:
-  MATH_INT64_BOOT;
+  PERL_MATH_INT64_LOAD_OR_CROAK;
 
 int64_t
 some_int64()
@@ -50,5 +53,12 @@ int64_addmul(acu, mul1, mul2)
     int64_t mul2
 CODE:
     RETVAL = acu + mul1 * mul2;
+OUTPUT:
+    RETVAL
+
+uint64_t
+uint64_rand()
+CODE:
+    RETVAL = randU64();
 OUTPUT:
     RETVAL
