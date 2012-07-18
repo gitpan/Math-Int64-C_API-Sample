@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Math-Int64-C_API-Sample
-version:            0.05
+version:            0.06
 abstract:           ~
 author:
     - Eto Demerzel <eto.demerzel@usrobots.com>
