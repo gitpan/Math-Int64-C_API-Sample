@@ -1,22 +1,22 @@
---- #YAML:1.0
-name:               Math-Int64-C_API-Sample
-version:            0.08
-abstract:           ~
+---
+abstract: unknown
 author:
-    - Eto Demerzel <eto.demerzel@usrobots.com>
-license:            unknown
-distribution_type:  module
-configure_requires:
-    ExtUtils::MakeMaker:  0
+  - 'Eto Demerzel <eto.demerzel@usrobots.com>'
 build_requires:
-    ExtUtils::MakeMaker:  0
-requires:
-    Math::Int64:  0.27_04
-no_index:
-    directory:
-        - t
-        - inc
-generated_by:       ExtUtils::MakeMaker version 6.57_05
+  ExtUtils::MakeMaker: '0'
+configure_requires:
+  ExtUtils::MakeMaker: '0'
+dynamic_config: 1
+generated_by: 'ExtUtils::MakeMaker version 6.98, CPAN::Meta::Converter version 2.142060'
+license: unknown
 meta-spec:
-    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
-    version:  1.4
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: Math-Int64-C_API-Sample
+no_index:
+  directory:
+    - t
+    - inc
+requires:
+  Math::Int64: '0.34'
+version: '0.09'
